@@ -1,0 +1,98 @@
+package com.model.entites;
+
+import com.model.entites.Eannota;
+import com.model.entites.Esancobertura;
+import com.model.entites.Esandesmame;
+import com.model.entites.Esanfuncionario;
+import com.model.entites.Esanlote;
+import com.model.entites.Esanmatriz;
+import com.model.entites.Esanmovanimais;
+import com.model.entites.Esanmovmaternidade;
+import com.model.entites.Esanparto;
+import com.model.entites.Esanreprodutor;
+import com.model.entites.Esansala;
+import java.util.Date;
+import javax.annotation.Generated;
+import javax.persistence.metamodel.ListAttribute;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2022-06-28T09:18:16")
+@StaticMetamodel(Esanempresa.class)
+public class Esanempresa_ { 
+
+    public static volatile SingularAttribute<Esanempresa, Character> flutilizaexportadorbrfmtech;
+    public static volatile ListAttribute<Esanempresa, Eannota> eannotaList;
+    public static volatile SingularAttribute<Esanempresa, String> flhospital;
+    public static volatile SingularAttribute<Esanempresa, Integer> flresponsavelboletim;
+    public static volatile SingularAttribute<Esanempresa, Integer> flnumontas;
+    public static volatile SingularAttribute<Esanempresa, String> fllotedesmtipo;
+    public static volatile SingularAttribute<Esanempresa, String> flconsumoracaopelacompra;
+    public static volatile SingularAttribute<Esanempresa, String> fllotedesmano;
+    public static volatile SingularAttribute<Esanempresa, Integer> fliniciosemana;
+    public static volatile SingularAttribute<Esanempresa, String> flpermitirvalorcompramaiornf;
+    public static volatile SingularAttribute<Esanempresa, String> nmresponsaveltecnico;
+    public static volatile SingularAttribute<Esanempresa, String> nmempresa;
+    public static volatile SingularAttribute<Esanempresa, String> flcoberturalactacao;
+    public static volatile SingularAttribute<Esanempresa, String> flleitoesbaixaviabilidade;
+    public static volatile SingularAttribute<Esanempresa, String> flutilizaexportsaidaplantel;
+    public static volatile SingularAttribute<Esanempresa, String> flid1;
+    public static volatile SingularAttribute<Esanempresa, String> flid2;
+    public static volatile SingularAttribute<Esanempresa, String> flpesoleitoesparto;
+    public static volatile SingularAttribute<Esanempresa, Character> flutilizaenquetebrf;
+    public static volatile SingularAttribute<Esanempresa, String> flmaternidade;
+    public static volatile ListAttribute<Esanempresa, Esanmatriz> esanmatrizList;
+    public static volatile ListAttribute<Esanempresa, Esancobertura> esancoberturaList;
+    public static volatile SingularAttribute<Esanempresa, Integer> cdempresa;
+    public static volatile SingularAttribute<Esanempresa, Character> fltipocalculoconsumoracao;
+    public static volatile SingularAttribute<Esanempresa, String> nmorgaoestadual;
+    public static volatile SingularAttribute<Esanempresa, String> flscorecorporalmatriz;
+    public static volatile SingularAttribute<Esanempresa, String> nmresponsaveltecnicooutro;
+    public static volatile SingularAttribute<Esanempresa, Integer> flnuintervalomontas;
+    public static volatile SingularAttribute<Esanempresa, String> flreproducao;
+    public static volatile SingularAttribute<Esanempresa, String> flproducaoracaopeloconsumo;
+    public static volatile ListAttribute<Esanempresa, Esanparto> esanpartoList;
+    public static volatile SingularAttribute<Esanempresa, Integer> nudiasbanda;
+    public static volatile ListAttribute<Esanempresa, Esanreprodutor> esanreprodutorList;
+    public static volatile SingularAttribute<Esanempresa, String> flpesomatriz;
+    public static volatile SingularAttribute<Esanempresa, Date> dabasebanda;
+    public static volatile SingularAttribute<Esanempresa, String> guid;
+    public static volatile ListAttribute<Esanempresa, Esanfuncionario> esanfuncionarioList;
+    public static volatile SingularAttribute<Esanempresa, String> flbloqueioproducaoracao;
+    public static volatile SingularAttribute<Esanempresa, Integer> cdmunicipio;
+    public static volatile SingularAttribute<Esanempresa, String> flvendematerial;
+    public static volatile SingularAttribute<Esanempresa, String> flespessuratoucinhomatriz;
+    public static volatile SingularAttribute<Esanempresa, String> flvendevacinamedicamento;
+    public static volatile SingularAttribute<Esanempresa, String> fllocalizacaomatrizes;
+    public static volatile SingularAttribute<Esanempresa, String> fllotedesmsemana;
+    public static volatile ListAttribute<Esanempresa, Esandesmame> esandesmameList;
+    public static volatile ListAttribute<Esanempresa, Esanmovanimais> esanmovanimaisList;
+    public static volatile ListAttribute<Esanempresa, Esanlote> esanloteList;
+    public static volatile ListAttribute<Esanempresa, Esanmovanimais> esanmovanimaisList1;
+    public static volatile SingularAttribute<Esanempresa, Character> fltipificacaocarcaca;
+    public static volatile SingularAttribute<Esanempresa, String> nmgeoreferenciamento;
+    public static volatile SingularAttribute<Esanempresa, String> flpesoleitoesdesmame;
+    public static volatile SingularAttribute<Esanempresa, String> nmproprietario;
+    public static volatile SingularAttribute<Esanempresa, String> fllocalizacao;
+    public static volatile SingularAttribute<Esanempresa, String> flrecria;
+    public static volatile SingularAttribute<Esanempresa, String> flsps;
+    public static volatile SingularAttribute<Esanempresa, String> fldigitacaomatriz;
+    public static volatile ListAttribute<Esanempresa, Esansala> esansalaList;
+    public static volatile ListAttribute<Esanempresa, Esanmovmaternidade> esanmovmaternidadeList;
+    public static volatile SingularAttribute<Esanempresa, String> flterminacao;
+    public static volatile SingularAttribute<Esanempresa, String> flprecreche;
+    public static volatile SingularAttribute<Esanempresa, String> flfunchora;
+    public static volatile SingularAttribute<Esanempresa, String> flcreche;
+    public static volatile SingularAttribute<Esanempresa, String> flsemana1ano;
+    public static volatile SingularAttribute<Esanempresa, String> flparticiparanking;
+    public static volatile SingularAttribute<Esanempresa, String> nmcrmv;
+    public static volatile SingularAttribute<Esanempresa, String> flcontrolematernidade;
+    public static volatile SingularAttribute<Esanempresa, String> flconsumovacinapelacompra;
+    public static volatile SingularAttribute<Esanempresa, String> flconsumomaterialpelacompra;
+    public static volatile SingularAttribute<Esanempresa, String> flnome2;
+    public static volatile SingularAttribute<Esanempresa, String> flcalendario;
+    public static volatile SingularAttribute<Esanempresa, String> flnome1;
+    public static volatile SingularAttribute<Esanempresa, String> flnome4;
+    public static volatile SingularAttribute<Esanempresa, String> flnome3;
+
+}

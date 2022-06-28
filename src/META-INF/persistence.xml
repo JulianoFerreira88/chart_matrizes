@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="chart_matrizesPU" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>com.model.entites.Eanentidade</class>
+        <class>com.model.entites.Eanpais</class>
+        <class>com.model.entites.Esanparto</class>
+        <class>com.model.entites.Ecusbdporccausaleitao</class>
+        <class>com.model.entites.Esanmovmaternidade</class>
+        <class>com.model.entites.Esandesmame</class>
+        <class>com.model.entites.Eanmunicipio</class>
+        <class>com.model.entites.Esancobertura</class>
+        <class>com.model.entites.Esanmatriz</class>
+        <class>com.model.entites.Esanfase</class>
+        <class>com.model.entites.Esanraca</class>
+        <class>com.model.entites.Esanfuncionario</class>
+        <class>com.model.entites.Ecusbdporcraca</class>
+        <class>com.model.entites.Esansala</class>
+        <class>com.model.entites.Esanreprodutor</class>
+        <class>com.model.entites.Esanempresa</class>
+        <class>com.model.entites.Esancausa</class>
+        <class>com.model.entites.Esanlote</class>
+        <class>com.model.entites.Esantipoparto</class>
+        <class>com.model.entites.Eannota</class>
+        <class>com.model.entites.Esangrupocobertura</class>
+        <class>com.model.entites.Esanmovanimais</class>
+        <class>com.model.entites.Ecusbdporccausareprodutor</class>
+        <class>com.model.entites.Eanuf</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:firebirdsql://localhost:3050/C:/Users/Juliano/Documents/DataBases/BDSAN.FDB"/>
+            <property name="javax.persistence.jdbc.user" value="SYSDBA"/>
+            <property name="javax.persistence.jdbc.driver" value="org.firebirdsql.jdbc.FBDriver"/>
+            <property name="javax.persistence.jdbc.password" value="masterkey"/>
+        </properties>
+    </persistence-unit>
+</persistence>
